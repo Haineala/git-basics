@@ -1,0 +1,35 @@
+sudo yum install git
+git --version
+git config --global user.name "HainealaEmese"
+git config --global user.email "haineala_magdalea1@yahoo.com"
+git config --list
+ls
+pwd
+mkdir git-basics
+cs git-basics
+cd git-basics/
+git clone https://github.com/Haineala/git-basics.git
+cd git-basics/
+cat > myFile1.txt
+git add myFile1.txt
+git -m "My first commit"
+git commit -m "My first commit"
+git push origin master
+git pull
+ls
+git pull
+ls
+lsgit
+git checkout -b branch1
+git branch
+cat > myFile2.txt
+git add myFile2.txt
+git commit -m "My first commit to branch1"
+push -u origin branch1
+git push -u origin branch1
+git checkout master
+git merge branch1
+git status
+git push origin master
+history
+history -w ./history_haineala_emese.txt
